@@ -23,14 +23,12 @@ var paths = []string{
 	"/config/gorm_v2.yml",
 	"/public/",
 	"/storage/logs/",
-	// "/public/storage",
 }
 
 // 检查项目必须的编译路径
 func checkPath(paths []string) {
 	for _, path := range paths {
 		_, err := os.Stat(filepath.Join(variable.BasePath, path))
-		fmt.Println(err)
 		if err != nil {
 			log.Fatal(my_errors.ErrorsConfigYamlNotExists + err.Error())
 		}

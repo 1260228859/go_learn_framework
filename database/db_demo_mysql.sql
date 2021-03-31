@@ -1,7 +1,7 @@
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/`db_goskeleton` /*!40100 DEFAULT CHARACTER SET utf8 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`evankao_go` /*!40100 DEFAULT CHARACTER SET utf8 */;
 
-USE `db_goskeleton`;
+USE `evankao_go`;
 
 /*Table structure for table `tb_users` */
 

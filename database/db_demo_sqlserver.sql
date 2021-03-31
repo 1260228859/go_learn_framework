@@ -1,11 +1,11 @@
 -- 创建数据库,例如：  db_goskeleton
 USE [master]
-IF NOT EXISTS(SELECT 1 FROM sysdatabases WHERE NAME=N'db_goskeleton')
+IF NOT EXISTS(SELECT 1 FROM sysdatabases WHERE NAME=N'evankao_go')
 BEGIN
-CREATE DATABASE db_goskeleton
+CREATE DATABASE evankao_go
 END
 GO
-use db_goskeleton ;
+use evankao_go ;
 --  创建表  tb_users 以及 写入模拟数据
 CREATE TABLE   tb_users (
 	id int   IDENTITY(1,1) NOT NULL  primary  key,
